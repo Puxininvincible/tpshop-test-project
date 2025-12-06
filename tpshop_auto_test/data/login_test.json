@@ -1,0 +1,32 @@
+[
+  {
+    "test_id": "06",
+    "id": "login_011",
+    "item": "tel",
+    "username": "12812345678",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+    {
+    "test_id": "11",
+    "id": "login_016",
+    "item": "email",
+    "username": "123@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "12",
+    "id": "login_017",
+    "item": "email",
+    "username": "12345678901234567@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  }
+]

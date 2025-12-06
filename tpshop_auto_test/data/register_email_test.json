@@ -1,0 +1,14 @@
+[
+{
+    "test_id": "11",
+    "id": "register047",
+    "item": "email",
+    "email": "12345@qq.com",
+    "code": "8888",
+    "set_pwd": "123456",
+    "confirm_pwd": "123456",
+    "reference_tel": "",
+    "expect_result": "账号已存在",
+    "success": false
+  }
+  ]

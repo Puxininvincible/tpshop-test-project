@@ -1,0 +1,5 @@
+{
+"test_002": {"product": "不存在的商品123","expect_result": "抱歉没找到您要搜索的商品，换个条件试试！","success": false},
+"test_001": {"product": "","expect_result": "请输入搜索词","success": false},
+"test_003": {"product": "iphone","expect_result": "添加成功","success": true}
+}

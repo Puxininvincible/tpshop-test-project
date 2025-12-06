@@ -1,0 +1,212 @@
+[
+  {
+    "test_id": "00",
+    "id": "login_005",
+    "item": "tel",
+    "username": "13811112222",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "我的商城",
+    "success": true
+  },
+  {
+    "test_id": "01",
+    "id": "login_006",
+    "item": "tel",
+    "username": "13812345678",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号不存在!",
+    "success": false
+  },
+  {
+    "test_id": "02",
+    "id": "login_007",
+    "item": "tel",
+    "username": "1381234567",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "03",
+    "id": "login_008",
+    "item": "tel",
+    "username": "138123456789",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "04",
+    "id": "login_009",
+    "item": "tel",
+    "username": "1381234567a",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "05",
+    "id": "login_010",
+    "item": "tel",
+    "username": "03812345678",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "06",
+    "id": "login_011",
+    "item": "tel",
+    "username": "12812345678",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "07",
+    "id": "login_012",
+    "item": "tel",
+    "username": "02812345678",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "08",
+    "id": "login_013",
+    "item": "tel",
+    "username": "",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "用户名不能为空!",
+    "success": false
+  },
+  {
+    "test_id": "09",
+    "id": "login_014",
+    "item": "email",
+    "username": "12345@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "我的商城",
+    "success": true
+  },
+  {
+    "test_id": "10",
+    "id": "login_015",
+    "item": "email",
+    "username": "12344@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号不存在!",
+    "success": false
+  },
+  {
+    "test_id": "11",
+    "id": "login_016",
+    "item": "email",
+    "username": "123@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "12",
+    "id": "login_017",
+    "item": "email",
+    "username": "12345678901234567@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "13",
+    "id": "login_018",
+    "item": "email",
+    "username": "_1234@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "14",
+    "id": "login_019",
+    "item": "email",
+    "username": "我1234@qq.com",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "15",
+    "id": "login_020",
+    "item": "email",
+    "username": "12345@qq",
+    "pwd": "123456",
+    "code": "8888",
+    "expect_result": "账号格式不匹配!",
+    "success": false
+  },
+  {
+    "test_id": "16",
+    "id": "login_021",
+    "item": "pwd",
+    "username": "13811112222",
+    "pwd": "0123456",
+    "code": "8888",
+    "expect_result": "密码错误!",
+    "success": false
+  },
+  {
+    "test_id": "17",
+    "id": "login_022",
+    "item": "pwd",
+    "username": "13811112222",
+    "pwd": "12345",
+    "code": "8888",
+    "expect_result": "密码错误!",
+    "success": false
+  },
+  {
+    "test_id": "18",
+    "id": "login_023",
+    "item": "pwd",
+    "username": "13811112222",
+    "pwd": "12345678901234567",
+    "code": "8888",
+    "expect_result": "密码错误!",
+    "success": false
+  },
+  {
+    "test_id": "19",
+    "id": "login_024",
+    "item": "pwd",
+    "username": "13811112222",
+    "pwd": "",
+    "code": "8888",
+    "expect_result": "密码不能为空!",
+    "success": false
+  },
+  {
+    "test_id": "20",
+    "id": "login_025",
+    "item": "pwd",
+    "username": "13811112222",
+    "pwd": "我123456",
+    "code": "8888",
+    "expect_result": "密码错误!",
+    "success": false
+  }
+]

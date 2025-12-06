@@ -1,0 +1,26 @@
+[
+  {
+    "test_id": "15",
+    "id": "register027",
+    "item": "set_pwd",
+    "tel": "13812345678",
+    "code": "8888",
+    "set_pwd": "12345678901234567",
+    "confirm_pwd": "12345678901234567",
+    "reference_tel": "",
+    "expect_result": "密码有效长度为6-16位,并且不得有空格！",
+    "success": false
+  },
+  {
+    "test_id": "16",
+    "id": "register028",
+    "item": "set_pwd",
+    "tel": "13812345678",
+    "code": "8888",
+    "set_pwd": "我123456",
+    "confirm_pwd": "我123456",
+    "reference_tel": "",
+    "expect_result": "密码有效长度为6-16位,并且不得有空格！",
+    "success": false
+  }
+]
